@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>imagen dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho sem seu navegador</p>
+    
+    <picture>
+        <source media="(max-width: 750px)"srcset="imagens/imagen p.png"type="imagenpng">
+       <source media="(max-width: 1050px)"srcset="imagens/imagen m.png" type="imagen/png">
+        <img src="imagens/imagen g.png" alt="Imagem flexível">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio no html5 </p>
+    <audio src="midias/Into the Depths (Sting) - Jingle Punks.mp3" controls autoplay>audio teste</audio>
+</body>
+</html>

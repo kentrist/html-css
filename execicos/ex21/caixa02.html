@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tag</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(4, 9, 53, 0.822);
+            margin: 0px;
+        }
+        header{
+            background-color: rgba(8, 17, 94, 0.822);
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: rgba(8, 17, 94, 0.822) ;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 10px;
+            box-shadow: 4px 4px 9px 0px;
+        }
+        footer{
+            background-color: rgba(0, 17, 255, 0.555) ;
+            text-align: center;
+            color: aliceblue;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer >p{
+            margin: 1px;
+        }
+        aside{
+            text-align: right;
+            
+        }
+        article{
+            background-color: rgba(0, 17, 255, 0.555);
+        }
+        article >aside {
+            background-color: brown;
+        }
+        nav{
+            background-color: brown;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+            
+        }
+        nav >a{
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bolder;
+            margin-right: 30px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site </h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+         rock louco 
+        </section>
+        <section id="noticias">
+         <article>
+            <h2>Noticias sobre o brasil </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ducimus facere autem dignissimos itaque explicabo, perspiciatis aliquam ad minima repudiandae nesciunt vitae at delectus maiores fuga vel. Laboriosam, alias nam.</p>    
+        <aside>
+        Kenner
+        </aside>
+        
+        </article>
+        
+    </section>
+
+    </main>
+    <footer>
+        <p>Criador Kenner</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
